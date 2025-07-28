@@ -13,4 +13,7 @@ gamerule spawnChunkRadius 0
 gamerule spawnRadius 0
 gamerule tntExplodes true
 
+scoreboard objectives remove sneak
+scoreboard objectives add sneak dummy
+
 say ztr pack is loaded!
