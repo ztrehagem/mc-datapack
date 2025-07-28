@@ -1,7 +1,5 @@
 advancement revoke @s only ztr:progress1
 clear @a
-effect give @a minecraft:night_vision infinite 0 true
-effect give @a minecraft:saturation infinite 0 true
 
 scoreboard objectives add tick_seconds dummy
 scoreboard players set @a tick_seconds 20
