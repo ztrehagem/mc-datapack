@@ -6,5 +6,7 @@ scoreboard objectives remove start_time
 scoreboard objectives remove duration
 scoreboard objectives remove kill_score
 scoreboard objectives remove kill
+scoreboard objectives remove respawn_timer
 
 gamerule naturalRegeneration false
+gamerule doImmediateRespawn true

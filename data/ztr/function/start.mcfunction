@@ -13,8 +13,15 @@ scoreboard objectives add kill_score dummy
 execute as @a run scoreboard players set @s kill_score 1
 
 scoreboard objectives add kill dummy "キル"
-scoreboard players set @s kill 0
+scoreboard players set @a kill 0
 scoreboard objectives setdisplay sidebar kill
+
+scoreboard objectives add respawn_timer dummy
+scoreboard players set @a respawn_timer -1
+
+# gamemode adventure @a
+# clear @a
+effect give @a minecraft:instant_health 1 3
 
 advancement revoke @a only ztr:kill
 
