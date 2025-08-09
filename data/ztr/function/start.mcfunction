@@ -1,20 +1,17 @@
-scoreboard objectives remove tick_seconds
+function ztr:reset
+
 scoreboard objectives add tick_seconds dummy
 scoreboard players set @a tick_seconds 20
 
-scoreboard objectives remove start_time
 scoreboard objectives add start_time dummy
 execute store result score @a start_time run time query gametime
 
-scoreboard objectives remove duration
 scoreboard objectives add duration dummy
 scoreboard players reset @a duration
 
-scoreboard objectives remove kill_score
 scoreboard objectives add kill_score dummy
 execute as @a run scoreboard players set @s kill_score 1
 
-scoreboard objectives remove kill
 scoreboard objectives add kill dummy "キル"
 scoreboard players set @s kill 0
 scoreboard objectives setdisplay sidebar kill
