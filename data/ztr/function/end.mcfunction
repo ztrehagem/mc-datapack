@@ -1,4 +1,4 @@
-execute as @a run scoreboard players set @s kill_score 0
+scoreboard players set game state 0
 
 execute store result score @s duration run time query gametime
 scoreboard players operation @s duration -= @s start_time

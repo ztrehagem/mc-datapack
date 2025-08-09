@@ -9,9 +9,6 @@ execute store result score @a start_time run time query gametime
 scoreboard objectives add duration dummy
 scoreboard players reset @a duration
 
-scoreboard objectives add kill_score dummy
-execute as @a run scoreboard players set @s kill_score 1
-
 scoreboard objectives add kill dummy "キル"
 scoreboard players set @a kill 0
 scoreboard objectives setdisplay sidebar kill
