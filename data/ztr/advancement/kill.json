@@ -1,0 +1,11 @@
+{
+  "criteria": {
+    "1": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {}
+    }
+  },
+  "rewards": {
+    "function": "ztr:advance/kill"
+  }
+}
