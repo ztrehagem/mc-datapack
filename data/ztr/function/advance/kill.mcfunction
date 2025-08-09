@@ -1,4 +1,4 @@
-execute as @s if score game state matches 0 run return fail
+execute if score game state matches 0 run return fail
 
 advancement revoke @s only ztr:kill
 
