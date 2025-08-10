@@ -10,3 +10,4 @@ playsound minecraft:ui.toast.challenge_complete ui @a[tag=player]
 
 team leave @a[tag=player]
 attribute @s minecraft:attack_damage base reset
+gamemode adventure @a[tag=player]
