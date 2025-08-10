@@ -8,4 +8,5 @@ tellraw @a[tag=player] [{"selector":"@s"},{"text":"の勝利！ タイム:"},{"s
 title @a[tag=player] title "GAME OVER"
 playsound minecraft:ui.toast.challenge_complete ui @a[tag=player]
 
-team leave player @a[tag=player]
+team leave @a[tag=player]
+attribute @s minecraft:attack_damage base reset

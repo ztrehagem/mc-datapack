@@ -1,2 +1,3 @@
 clear @s
-give @s minecraft:splash_potion[potion_contents={potion:"harming"}] 1
+give @s minecraft:mace[minecraft:unbreakable={show_in_tooltip:true}] 1
+attribute @s minecraft:attack_damage base set 0

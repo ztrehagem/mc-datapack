@@ -1,9 +1,9 @@
 gamerule keepInventory true
 gamerule fallDamage false
 gamerule doDaylightCycle false
-time set noon
+# time set noon
 gamerule doWeatherCycle false
-weather clear
+# weather clear
 gamerule doInsomnia false
 gamerule doMobSpawning false
 gamerule locatorBar true

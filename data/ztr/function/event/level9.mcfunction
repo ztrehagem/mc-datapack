@@ -1,2 +1,3 @@
 clear @s
-give @s minecraft:fishing_rod[minecraft:unbreakable={show_in_tooltip:true}] 1
+give @s minecraft:wind_charge 1
+attribute @s minecraft:attack_damage base set 0

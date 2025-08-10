@@ -24,6 +24,9 @@ scoreboard objectives add use_splash_potion minecraft.used:minecraft.splash_poti
 scoreboard objectives remove throw_trident
 scoreboard objectives add throw_trident minecraft.used:minecraft.trident
 
+scoreboard objectives remove throw_wind_charge
+scoreboard objectives add throw_wind_charge minecraft.used:minecraft.wind_charge
+
 team remove player
 team add player
 team modify player nametagVisibility never
