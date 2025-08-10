@@ -6,6 +6,7 @@ scoreboard players set @a[tag=player] respawn_timer -1
 scoreboard players set @a[tag=player] kill 0
 scoreboard objectives setdisplay sidebar kill
 
+team join player @a[tag=player]
 gamemode adventure @a[tag=player]
 effect give @a[tag=player] minecraft:instant_health 1 3
 execute as @a[tag=player] run function ztr:event/level1

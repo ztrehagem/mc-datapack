@@ -1,1 +1,1 @@
-tell @s level10
+clear @s

@@ -18,5 +18,15 @@ scoreboard objectives add kill dummy "キル"
 scoreboard objectives remove respawn_timer
 scoreboard objectives add respawn_timer dummy
 
+scoreboard objectives remove use_splash_potion
+scoreboard objectives add use_splash_potion minecraft.used:minecraft.splash_potion
+
+scoreboard objectives remove throw_trident
+scoreboard objectives add throw_trident minecraft.used:minecraft.trident
+
+team remove player
+team add player
+team modify player nametagVisibility never
+
 advancement revoke @a only ztr:death
 advancement revoke @a only ztr:kill
