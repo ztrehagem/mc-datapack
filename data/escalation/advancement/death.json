@@ -6,6 +6,6 @@
     }
   },
   "rewards": {
-    "function": "ztr:advance/death"
+    "function": "escalation:advance/death"
   }
 }

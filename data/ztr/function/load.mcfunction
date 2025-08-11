@@ -1,1 +1,1 @@
-say ztr pack is loaded!
+tell @a[tag=op] [ztr] is loaded!
