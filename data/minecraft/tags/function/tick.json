@@ -1,5 +1,7 @@
 {
   "values": [
-    "ztr:tick"
+    "ztr:tick",
+    "escalation:tick",
+    "iraira:tick"
   ]
 }

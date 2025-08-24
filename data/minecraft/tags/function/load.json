@@ -1,5 +1,7 @@
 {
   "values": [
-    "ztr:load"
+    "ztr:load",
+    "escalation:load",
+    "iraira:load"
   ]
 }

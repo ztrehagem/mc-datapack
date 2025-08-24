@@ -1,4 +1,4 @@
-execute if score game escalation matches 0 run return fail
+execute unless score game escalation matches 1 run return fail
 
 effect give @a[tag=player] minecraft:saturation infinite 0 true
 effect give @a[tag=player] minecraft:night_vision infinite 0 true
