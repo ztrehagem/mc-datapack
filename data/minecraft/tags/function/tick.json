@@ -2,6 +2,7 @@
   "values": [
     "ztr:tick",
     "escalation:tick",
-    "iraira:tick"
+    "iraira:tick",
+    "tc:tick"
   ]
 }
