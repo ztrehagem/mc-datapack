@@ -1,3 +1,3 @@
-function tc:check_score
-function tc:reset_score
-function tc:start_raycast
+execute if function tc:check/is_break_logs run function tc:run
+
+function tc:check/raycast_start
