@@ -2,7 +2,6 @@
   "values": [
     "ztr:load",
     "escalation:load",
-    "iraira:load",
-    "tc:load"
+    "iraira:load"
   ]
 }
